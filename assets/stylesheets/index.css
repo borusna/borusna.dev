@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "VCR OSD Mono";
+  src: url("../fonts/vcr-osd-mono.woff2") format("woff2"),
+       url("../fonts/vcr-osd-mono.woff") format("woff"),
+       url("../fonts/vcr-osd-mono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "Modenine";
+    src: url("../fonts/MODENINE.woff2") format("woff2"),
+        url("../fonts/MODENINE.woff") format("woff"),
+        url("../fonts/MODENINE.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #2E2E2E;
+    color: white;
+    padding-top: 32px;
+}
+
+.navigation-bar{
+    border: 3px solid #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+}
+
+.navigation-bar ul .navtitle {
+    float: left;
+    font-family: 'VCR OSD MONO';
+    font-size: 32px;
+    margin: 0;
+    padding: 12px;
+    display: inline;
+}
+
+.navigation-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444444;
+    font-family: 'VCR OSD MONO';
+    background-image:url("../images/win95.jpg")
+}
+
+.navigation-bar ul li {
+    float: right;
+}
+
+.navigation-bar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 12px;
+    text-decoration: none;
+}
+
+.navigation-bar ul li a:hover {
+    background-color: #111111;
+}
+
+.home-overview {
+    border: 3px solid #444444;
+    border-style: groove;
+}
+
+.home-overview h1 {
+	text-align: center;
+	font-family: 'Modenine';
+	font-size: 36px;
+}
+
+.home-overview hr {
+    border-color: #444444;
+    width: 350px;
+}
+
+.home-overview p {
+    margin: 0 auto;
+    font-family: 'Modenine';
+    text-align: center;
+    font-size: 16px;
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+
+.projects-overview {
+    border: 3px solid #444444;
+    border-style: groove;
+}
+
+.projects-overview h1 {
+	text-align: center;
+	font-family: 'Modenine';
+	font-size: 36px;
+}
+
+.projects-overview hr {
+    border-color: #444444;
+    width: 350px;
+}
+
+.projects-overview p {
+    margin: 0 auto;
+    font-family: 'Modenine';
+    text-align: center;
+    font-size: 16px;
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+
+.projects-overview p a {
+    font-family: 'Modenine';
+    color: white;
+}
+
+.contact-overview {
+    border: 3px solid #444444;
+    border-style: groove;
+}
+
+.contact-overview h1 {
+	text-align: center;
+	font-family: 'Modenine';
+	font-size: 36px;
+}
+
+.contact-overview hr {
+    border-color: #444444;
+    width: 350px;
+}
+
+.contact-overview p {
+    margin: 0 auto;
+    font-family: 'Modenine';
+    text-align: center;
+    font-size: 16px;
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+
+.contact-overview p a {
+    font-family: 'Modenine';
+    color: white;
+}
+
+/*.contact-overview p .update-notif {
+    font-size: 6px;
+}*/
