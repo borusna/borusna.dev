@@ -70,14 +70,19 @@ body {
 }
 
 .contact-overview {
+    text-align: center;
     border: 3px solid #444444;
     border-style: groove;
 }
 
 .contact-overview h1 {
-	text-align: center;
 	font-family: 'Modenine';
 	font-size: 36px;
+    display: inline-block;
+    width: auto;
+    border-style: groove;
+    border-width: 5px;
+    padding: 20px;
 }
 
 .contact-overview hr {

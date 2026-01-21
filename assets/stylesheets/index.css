@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "VCR OSD Mono";
-  src: url("../fonts/vcr-osd-mono.woff2") format("woff2"),
+    font-family: "VCR OSD Mono";
+    src: url("../fonts/vcr-osd-mono.woff2") format("woff2"),
        url("../fonts/vcr-osd-mono.woff") format("woff"),
        url("../fonts/vcr-osd-mono.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -72,12 +72,17 @@ body {
 .home-overview {
     border: 3px solid #444444;
     border-style: groove;
+    text-align: center;
 }
 
 .home-overview h1 {
-	text-align: center;
 	font-family: 'Modenine';
 	font-size: 36px;
+    display: inline-block;
+    width: auto;
+    border-style: groove;
+    border-width: 5px;
+    padding: 20px;
 }
 
 .home-overview hr {
@@ -86,6 +91,37 @@ body {
 }
 
 .home-overview p {
+    margin: 0 auto;
+    font-family: 'Modenine';
+    text-align: center;
+    font-size: 16px;
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+
+.information-overview {
+    border: 3px solid #444444;
+    border-style: groove;
+    text-align: center;
+}
+
+.information-overview h1 {
+	font-family: 'Modenine';
+	font-size: 36px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    border-width: 5px;
+    width: auto;
+    border-style: groove;
+    padding: 20px;
+}
+
+.information-overview hr {
+    border-color: #444444;
+    width: 350px;
+}
+
+.information-overview p {
     margin: 0 auto;
     font-family: 'Modenine';
     text-align: center;
@@ -122,4 +158,12 @@ body {
 .projects-overview p a {
     font-family: 'Modenine';
     color: white;
+}
+
+.copyright {
+    font-family: "VCR OSD Mono";
+    position: fixed;     
+    text-align: center;    
+    bottom: 5px; 
+    width: 100%;
 }
